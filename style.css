@@ -111,8 +111,15 @@ h5 {
     margin: 30px;
 }
 
+.foto-fyzio img {
+    width: 25%;
+    border-radius: 5px;
+    float: left;
+    margin: 30px;
+}
+
 .foto-masaz img {
-    width: 30%;
+    width: 25%;
     border-radius: 5px;
     float: right;
     margin: 0 30px 30px 30px;
