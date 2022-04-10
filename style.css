@@ -55,40 +55,65 @@ h5 {
 }
 
 .nav-link {
-    color:#a31116; 
+    color:#a31116 !important;
 }
 
-.nav-link.hover,
-.nav-link.focus,
+
 .nav-link.active {
     background-color: #a31116 !important;
-    color: #f6efef !important;  
+    color: #f6efef !important;
     cursor: pointer; 
+}
+
+.nav {
+    width: 100% !important;
+
 }
 
 .nav-item {
     margin: 1% !important;
 }
 
-#base,
-html {
-    background-color: #f9f8f7;
+#omne {
+   background-image: url(img/bccontact4.jpg);
+    /* height: 100vh; */
+    background-repeat: no-repeat;
     background-size: cover;
+    position: sticky;
+    padding-bottom: 30px;
+} 
+
+#fyzio {
+   background-image: url(img/bcfyzio.jpg);
     height: 100vh;
-    padding: 30px;
-    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#masaze {
+   background-image: url(img/bcmasaz5.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#kontakt {
+   background-image: url(img/bccontact4.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 
 .foto-omne img {
     width: 30%;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 5px;
     float: left;
     margin: 30px;
 }
 
 .foto-masaz img {
     width: 30%;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 5px;
     float: right;
     margin: 0 30px 30px 30px;
 }
