@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Grechen+Fuemen&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 *,
 ::before,
 ::after {
   box-sizing: border-box;
 }
 
-h4,
-h2,
+
+ h1,
+ h2,
 h3,
-h5 {
-    font-family: fantasy;
+h5
+ {
+    font-family: 'Caveat', cursive;
+}
+
+.font {
+    font-family: 'Grechen Fuemen', cursive;
 }
 
 .homepage {
@@ -76,7 +85,7 @@ h5 {
 
 #omne {
    background-image: url(img/bccontact4.jpg);
-    /* height: 100vh; */
+ 
     background-repeat: no-repeat;
     background-size: cover;
     position: sticky;
