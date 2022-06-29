@@ -50,9 +50,13 @@ h1, h2, h3, h4, h5
     margin: 3%;
 }
 
+#nav-home {
+    justify-content: center;
+}
+
 #pills-tab {
     background-color: none;
-    justify-content: center;   
+    justify-content: end;   
 }
 
 #pills-tab-nav {
@@ -62,6 +66,7 @@ h1, h2, h3, h4, h5
 
 .nav-link {
     color:#a31116 !important;
+    font-size: medium;
 }
 
 #action {
@@ -126,26 +131,26 @@ h1, h2, h3, h4, h5
 }
 
 .foto-fyzio img {
-    width: 25%;
+    width: 30%;
     border-radius: 5px;
     float: left;
-    margin: 30px;
+    margin: 0 30px 30px 0;
 }
 
 .foto-masaz img {
-    width: 25%;
+    width: 30%;
     border-radius: 5px;
     float: right;
-    margin: 0 30px 30px 30px;
+    margin: 0 0 30px 30px;
 }
 
-.foto-kontakt img {
+/* .foto-kontakt img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     float: left;
     margin-bottom: 30px;
-}
+} */
 
 
 #logo {
@@ -159,13 +164,16 @@ h1, h2, h3, h4, h5
     justify-content: space-between;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
     #fyzio {
         height: 100vh;
     }
     #masaze {
         height: 100vh;
     }
+}
+
+@media (min-width: 1020px) {
     #kontakt {
         height: 100vh;
     }
