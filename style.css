@@ -8,10 +8,7 @@
 }
 
 
- h1,
- h2,
-h3,
-h5
+h1, h2, h3, h4, h5
  {
     font-family: 'Caveat', cursive;
 }
@@ -94,21 +91,18 @@ h5
 
 #fyzio {
    background-image: url(img/bcfyzio\ \(kopie\).jpg);
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 } 
 
 #masaze {
    background-image: url(img/bcmasaz5.jpg);
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 } 
 
 #kontakt {
    background-image: url(img/bccontact4.jpg);
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 } 
@@ -139,21 +133,29 @@ h5
     height: 200px;
     border-radius: 50%;
     float: left;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
-#text {
-    margin: 30px;
-    padding: 0;
-    overflow: auto;
-}
 
 #logo {
      height: 4em; 
+     margin-top: 1rem;
 } 
 
 #fyzioterapeut {
     height: 5em;
     justify-content: flex-start;
     justify-content: space-between;
+}
+
+@media (min-width: 1000px) {
+    #fyzio {
+        height: 100vh;
+    }
+    #masaze {
+        height: 100vh;
+    }
+    #kontakt {
+        height: 100vh;
+    }
 }
