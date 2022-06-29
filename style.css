@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5
     }
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 750px) {
     #kontakt {
         height: 100vh;
     }
