@@ -98,7 +98,6 @@ h1, h2, h3, h4, h5
 
 #omne {
    background-image: url(img/bccontact4.jpg);
- 
     background-repeat: no-repeat;
     background-size: cover;
     position: sticky;
@@ -164,7 +163,7 @@ h1, h2, h3, h4, h5
     justify-content: space-between;
 }
 
-@media (min-width: 1100px) {
+/* @media (min-width: 1100px) {
     #fyzio {
         height: 100vh;
     }
@@ -177,4 +176,4 @@ h1, h2, h3, h4, h5
     #kontakt {
         height: 100vh;
     }
-}
+} */
