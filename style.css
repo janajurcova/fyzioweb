@@ -103,8 +103,7 @@ h1, h2, h3, h4, h5
    background-image: url(img/bccontact4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: sticky;
-    padding-bottom: 30px;
+   height: 100vh;
 } 
 
 #fyzio {
@@ -132,21 +131,21 @@ h1, h2, h3, h4, h5
     width: 30%;
     border-radius: 5px;
     float: left;
-    margin: 30px;
+    margin-right: 25px;
 }
 
 .foto-fyzio img {
     width: 30%;
     border-radius: 5px;
     float: left;
-    margin: 0 30px 30px 0;
+   margin-right: 25px;
 }
 
 .foto-masaz img {
     width: 30%;
     border-radius: 5px;
     float: right;
-    margin: 0 0 30px 30px;
+    margin-left: 25px;
 }
 
 /* .foto-kontakt img {
@@ -160,7 +159,8 @@ h1, h2, h3, h4, h5
 
 #logo {
      height: 4em; 
-     margin-top: 1rem;
+     width: 4em;
+     margin: 1;
 } 
 
 #fyzioterapeut {
@@ -168,5 +168,6 @@ h1, h2, h3, h4, h5
     justify-content: flex-start;
     justify-content: space-between;
 }
+
 
  
