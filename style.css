@@ -104,6 +104,8 @@ h1, h2, h3, h4, h5
     background-repeat: no-repeat;
     background-size: cover;
    height: 100vh;
+   background-attachment: fixed;
+     background-position: center;
 } 
 
 #fyzio {
@@ -111,6 +113,8 @@ h1, h2, h3, h4, h5
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+     background-attachment: fixed;
+     background-position: center;
 } 
 
 #masaze {
@@ -118,6 +122,8 @@ h1, h2, h3, h4, h5
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+     background-attachment: fixed;
+     background-position: center;
 } 
 
 #kontakt {
@@ -125,6 +131,8 @@ h1, h2, h3, h4, h5
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+     background-attachment: fixed;
+     background-position: center;
 } 
 
 .foto-omne img {
