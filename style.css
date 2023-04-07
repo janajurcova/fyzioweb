@@ -7,6 +7,9 @@
   box-sizing: border-box;
 }
 
+i {
+    font-size: 9px;
+}
 
 h1, h2, h3, h4, h5
  {
@@ -108,18 +111,21 @@ h1, h2, h3, h4, h5
    background-image: url(img/bcfyzio\ \(kopie\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 } 
 
 #masaze {
    background-image: url(img/bcmasaz5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 } 
 
 #kontakt {
    background-image: url(img/bccontact4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 } 
 
 .foto-omne img {
