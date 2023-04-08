@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5
 }
 
 #pills-tab {
-    background-color: none;
+    background-color: none !important;
     justify-content: end;   
 }
 
